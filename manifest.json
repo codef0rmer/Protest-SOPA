@@ -1,0 +1,18 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery.min.js", "js/app.js" ],
+      "matches": [ "http://plus.google.com/*", "https://plus.google.com/*", "http://www.facebook.com/*", "https://www.facebook.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Go dark on Jan 18th to protest against SOPA",
+   "icons": {
+      "128": "images/logo_128.gif",
+      "19": "images/logo_19.gif",
+      "64": "images/logo_64.gif", 
+      "48": "images/logo_48.gif"
+   },
+   "name": "Protest SOPA",
+   "version": "0.1"
+}
